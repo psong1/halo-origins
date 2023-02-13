@@ -57,10 +57,10 @@ h1 {
 }
 
 
-.waves-effect {
+/* .waves-effect {
     width: 100% !important;
     height:100% !important;
-}
+} */
 
 .grow:hover {
     justify-content: space-evenly;
@@ -68,8 +68,8 @@ h1 {
 
 .grid-example {
     margin: 15px 0px;
-    max-width: 415px;
-    max-height: 415px;
+    max-width: 415px !important;
+    max-height: 415px !important;
 }
 
 .modal-content {
@@ -87,21 +87,13 @@ h1 {
     max-width: 3840px;
     width:100%;
     height: 100%;
-  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 a img {
     margin-top: 15px;
- 
-}
-
-.row-1 {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.row {
-    margin-left: 10%;
 }
 
 .grow {
