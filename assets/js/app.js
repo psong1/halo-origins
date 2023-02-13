@@ -1,6 +1,13 @@
-$(document).ready(function(){
-    $('.modal').modal();
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.modal');
+  var instances = M.Modal.init(elems, {
+    opacity: 0.9,
+   
   });
+
+});
+
+
 
 // will have to remove before deploying app
 let rawgKey = '576858f4b6fa477990afac4add5f794f';
