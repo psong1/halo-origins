@@ -71,9 +71,11 @@ h1 {
 }
 
 .container {
-    background-image: url('/assets/images/halo-ring.jpg');
+    background-image: linear-gradient(rgba(4, 15, 20, 0.6), rgba(4, 10, 20, 0.6)), url('/assets/images/halo-ring.jpg');
     background-position: center;
     background-size: cover;
+    max-width: 2000px;
+    width:100%;
 }
 
 a img {
